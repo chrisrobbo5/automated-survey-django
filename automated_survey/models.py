@@ -9,7 +9,7 @@ class Survey(models.Model):
 
 
 class Question(models.Model):
-    VOICE = 'woman' language='en-GB'
+    VOICE = 'voice'
     YES_NO = 'yes-no'
     NUMERIC = 'numeric'
 
