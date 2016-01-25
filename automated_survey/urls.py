@@ -12,6 +12,8 @@ urlpatterns = [
 
     url(r'^survey/(?P<survey_id>\d+)/question/(?P<question_id>\d+)$',
         show_question,
+        'voice': 'woman',
+        'language': 'en-GB',
         name='question'),
 
     url(r'^survey/(?P<survey_id>\d+)$',
